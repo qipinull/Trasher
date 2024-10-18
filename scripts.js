@@ -1,3 +1,4 @@
+
 function bin() {
   document.getElementById("binImg").style.position="absolute"; 
   let vh = window.innerHeight;
@@ -11,8 +12,7 @@ function bin() {
   console.log(b)
 }
 
-function spawn() {
+function start() {
   var x = document.getElementById("start");
-    document.getElementById("spawn").style.onclick = bin();
-    document.getElementById("start").style.onclick = stop(); 
-} 
+    document.getElementById("spawn").onclick = bin;
+}
